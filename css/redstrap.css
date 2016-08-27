@@ -1,42 +1,23 @@
-body{
-	background-color: whitesmoke;
-	margin: 0;
-	padding: 0;
+
+
+iframe{
+		display: flex;
+		justify-content: center;
+		height:350px;
+		width: 450px;
+
+
+
+
+
 
 }
 
 
-header{
-		margin-top: 100px;
-		margin-bottom: 50px;		
-
-}
-
-.carousel-caption:nth-child(3n+0) {
-
-	margin-bottom: 250px;
-}
 
 
 
-section{
-	background-color: blue;
-	margin-top: 50px;
-}
 
-section.col-md-4{
-	display: flex;
-	justify-content: flex-end;
-
-}
-
-section.col-md-4:nth-child(3){
-	margin-top: 350px;
-	float:right;
-	display: flex;
-	justify-content: flex-end;
-
-}
 .footer{
 	display:flex;
 	justify-content: center;
@@ -55,6 +36,7 @@ h6.nintendo{
 	border-color: red;
 	padding: 1px 1px 1px 11px;
 	background-color: white;
+
 }
 .col-md-4 p{
 	display:flex;
