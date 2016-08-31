@@ -30,7 +30,7 @@ $( function () {
     function animateChartWhenVisible ( chart ) {
         for ( var i = 0, count = chart.length; i < count; i++ ) {
             if ( isWholeVisible( chart[ i ] )  ) {
-                $( chart[ i ] ).addClass("first");
+                $( chart[ i ] ).addClass(".first");
              
                 
             }

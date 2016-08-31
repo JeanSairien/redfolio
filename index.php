@@ -7,8 +7,6 @@
 		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 		<!-- bootstrap 4-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-		<!--scroll-->
-		<script src="js/script.js" type="text/javascript"></script>
 		<!--jquery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
 		
@@ -49,11 +47,12 @@
 		<header>
 			<div class="container-fluid car">
 				<!--a little desrib of me-->
-				<h2>Welcome on my RedFolio!</h2>
-				<h3>I'm Julien and i am passionate by the numerique world since 10 years</h3>
-				<h4>In self-educated, i learn web and network technologies </h4>
 				<!--My Boostrap 4 slider-->
 				<div class="col-md-12 col-sm-12">
+				<h2>Welcome on my RedFolio!<title>Here i use a text-shadow css in yellow</title></h2>
+
+				<h3>I'm Julien and i am passionate by the numerique world since 10 years</h3>
+				<h4>In self-educated, i learn web and network technologies </h4>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -100,10 +99,10 @@
 		<!--separate-->
 		<div class="hr"></div>
 				<!-- my first section with an describ how i use the framework-->
-				<section>
+				<section class="first">
 							<!--here i hide this code for works without the css animating-->
 							<!--class="first"--> <!--the class must be put in the <section>-->
-							<!--<div class="chart"></div>-->
+							<div class="chart"></div>
 					<div class="container-fluid">
 						<div class="col-md-4">
 							<div class="img1"></div>
@@ -119,15 +118,14 @@
 	<!--separate-->
 	<div class="hr"></div>
 				<!-- my second section with an describ how i apply the security-->
-				<section>
+				<section class="first">
 							<!--here i hide this code for works without the css animating-->
 							<!--class="second" --> <!--the class must be put in the <section>-->
-							<!--<div class="chart"></div>-->
+							<div class="chart"></div>
 					<div class="container-fluid">
 						<div class="col-md-4">
 							<div class="img2"></div>
-							<!--<img href="" height="150px" width="180px" src="img/kali.jpg"/>-->
-							<figcaption>Sécurity Research and Development</figcaption>
+								<figcaption>Sécurity Research and Development</figcaption>
 						</div>
 						<div class="col-md-8">
 							<h1>Kali Linux</h1>
@@ -139,16 +137,15 @@
 	<!--separate-->			
 	<div class="hr"></div>
 				<!--my third section with an describ how i use many tools of php/sql-->
-				<section>
+				<section class="first">
 							<!--here i hide this code for works without the css animating-->
 							<!--class="third" --> <!--the class must be put in the <section>-->
-							<!--<div class="chart"></div>-->
+							<div class="chart"></div>
 			
 						<div class="container-fluid">
 							<div class="col-md-4">
 								<div class="img3"></div>
-								<!--<img href="" height="150px" width="180px" src="img/php.jpg"/>-->
-								<figcaption>Php 7</figcaption>
+									<figcaption>Php 7</figcaption>
 							</div>
 							<div class="col-md-8">
 								<h1>Php 7</h1>
@@ -160,7 +157,7 @@
 		<!--begin of footer-->				
 		<footer>
 			<div class="container-fluid">
-				<div class="col-md-12">
+				<div class="col-md-12 col-sm-10">
 					<div class="col-md-6 col-sm-3">
 						<!--here i use my reproduct of nintendo logo-->
 						<h6 class="nintendo">Powered By Julien.V</h6>
@@ -171,8 +168,8 @@
 					
 				</div>
 				
-				<div class="col-md-12">
-					<div class="col-md-8">
+				<div class="col-md-12 col-sm-10">
+					<div class="col-md-8 col-md-6">
 						<h2>show footer code</h2>
 						<!-- Trigger the modal with a button -->
 						<button type="button" class="btn place" data-toggle="modal" data-target="#myModal">clic me</button>
@@ -215,6 +212,7 @@
 			</div>
 		</footer><!--footer ending-->
 </div>
-
+<!--scroll-->
+<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
