@@ -1,8 +1,18 @@
 body{
-	background-image:url("../img/abstract.jpg")!important;
-	background-size: 1280px 50%;	
+	
+	background-color: gray!important;	
+	opacity: 0.9;
+
+}
+
+
+
+.container.body{
+	background-image:url("../img/binary.jpg")!important;
 	margin: 0;
 	padding: 0;
+	
+	
 
 
 }
@@ -11,22 +21,23 @@ body{
 header{
 		margin-top: 100px;
 		margin-bottom: 50px;
-		text-shadow: 2px 2px yellow;
-		
+		text-shadow: 2px 2px black;
+		color: yellow;
+		font-size: 12px!important;		
 
 }
 
 .hr{
 
-	border-bottom: 2px gray;
+	border-bottom: 5px red;
 
 
 }
 
 .container-fluid.car{
-	height: 800px;
-	width:1024px;
-
+	/*height: 800px;
+	width:1024px;*/
+	font-size: 12px!important;
 }
 
 .carousel-caption:nth-child(3n+0) {
@@ -39,33 +50,27 @@ header{
 section{
 	background-color: whitesmoke;
 	margin-top: 50px;
-	opacity:0.9;
+	font-size: 12px!important;
 	padding-top: 25px;
 }
+wow = new WOW(
+{
+	boxClass: 'wow', 		  	// default
+	animateClass: 'animated',   // default
+	offset: 0,					// default
+	mobile:  true,				// default
+	live: true,					// default
+	}
+	)
+	wow.init();
+	}
 section.col-md-4{
 	display: flex;
 	justify-content: flex-end;
+	font-size: 12px!important;
 }
 
-section.first{
 
-	animation-duration: 4s;
-	animation-name: slidein;
-}
-
-@keyframes slidein {
-
-	from {
-		margin-left:300%;
-		width: 300%;
-	}
-
-	to {
-		margin-right: 0;
-		width: 100%;
-
-	}
-}
 
 div.img1{
 	height:150px;
