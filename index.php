@@ -47,14 +47,20 @@
 		
 		<!--header begin here-->
 		<header>
-			<div class="container-fluid car">
-				<!--a little desrib of me-->
-				<!--My Boostrap 4 slider-->
+		<div class="container-fluid car">
+			<!--a little desrib of me-->
+			<!--My Boostrap 4 slider-->
 				<div class="col-md-12 col-sm-12">
-				<h2 title="Here i use a text-shadow css in yellow" >Welcome on my RedFolio!</h2>
-
-				<h3>I'm Julien and i am passionate by the numerique world since 10 years</h3>
-				<h4>In self-educated, i learn web and network technologies </h4>
+				<div class="container-fluid bg">
+				<div id="bgw" class="wow pulse" data-wow-duration="1s" data-wow-delay="0s" data-wow-iteration="3"> when you see a small pictures animated place you're mouse on it  for see the comment</div>
+					<div title="Here i use a text-shadow css in 2 yellow pixel " id="bgp" class="col-xs-2 wow swing " data-wow-duration="1s" data-wow-delay="0s" data-wow-iteration="3">
+					</div>
+						<h2>Welcome on my RedFolio!</h2>
+				<div> 		
+				<h3>Hello I'm Julien, I live the numerique world since 10 years</h3>
+				<h4 class="marge">In self-educated, i learn web and network technologies </h4>
+				</div>
+				</div>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -72,15 +78,15 @@
 							<div class="carousel-item">
 								<img height="768px" width="1366px" src="img/kali.jpg" alt="Second slide">
 								<div class="carousel-caption">
-									<h3>Secure You're skillz White the most Popular :Kali</h3>
-									<p>Ethical Thing we trust !</p>
+									<h3>Secure You're skillz with the most Popular Kali</h3>
+									<p>Ethical Thing I trust !</p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img height="768px" width="1366px" src="img/php.png" alt="Third slide">
 								<div class="carousel-caption">
-									<h3>More One Hobby !</h3>
-									<p>We're the passion of a life !</p>
+									<h3>One More Hobby !</h3>
+									<p> One Life !</p>
 								</div>
 							</div>
 						</div>
@@ -109,9 +115,10 @@
 							<figcaption>Bootstrap 4 sublime you're code</figcaption>
 						</div>
 						<div class="col-md-8">
-							<h1>The News</h1>
-							<p> News fonctionnalities</p>
-							<h2>Enjoy now the new bootstrap 4 experiments  : find your remaster components to contemporary taste : jumbotron improved website , canvas , functionalities added to the container and many others , they will Enjoy your developments !!! </h2>
+							<h1>With him it's good</h1>
+							<p> Faster,easier and friendly</p>
+							<h2> Why exaclty him ? Bootstrap it's very easy for handling, is faster and awesome  configuration with her responsive modern grid, almost everything is enable with my old friend.
+							That is the reason for use it in every skills!!! </h2>
 						</div>
 					</div>
 				</section>

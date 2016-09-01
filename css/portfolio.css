@@ -1,28 +1,45 @@
 body{
 	
-	background-color: gray!important;	
-	opacity: 0.9;
+	background-image:url("../img/binary.jpg")!important;
+	
 
 }
 
 
 
 .container.body{
-	background-image:url("../img/binary.jpg")!important;
+	opacity: 0.9;
+	background-color: grey!important;	
 	margin: 0;
 	padding: 0;
-	
-	
+}
 
+.bg{
+	background-color: whitesmoke!important;
 
 }
 
+#bgw{
+	float:right;
+	color:purple;
+	background-color: cyan;
+	font-size: 12px;
+}
+
+#bgp{
+	margin-top: 40px;
+	float: right;
+	background-image:url(../img/abstract.jpg);
+	background-size: 80px 80px;
+	width: 80px;
+	height:80px;	
+}
 
 header{
 		margin-top: 100px;
 		margin-bottom: 50px;
-		text-shadow: 2px 2px black;
-		color: yellow;
+		text-shadow: 2px 2px 2px yellow;
+		color: red;
 		font-size: 12px!important;		
 
 }
@@ -35,8 +52,8 @@ header{
 }
 
 .container-fluid.car{
-	/*height: 800px;
-	width:1024px;*/
+	
+	
 	font-size: 12px!important;
 }
 
@@ -68,9 +85,13 @@ section.col-md-4{
 	display: flex;
 	justify-content: flex-end;
 	font-size: 12px!important;
+
 }
 
-
+div.col-md-8 h2{
+	font-size: 16px!important;
+	
+}
 
 div.img1{
 	height:150px;
@@ -80,26 +101,6 @@ div.img1{
 	background-position: center;
 	}
 	
-/*section.second{
-
-	animation-duration: 6s;
-	animation-name: slideinkali;
-}
-
-@keyframes slideinkali {
-
-	from {
-		margin-left:300%;
-		width: 300%;
-	}
-
-	to {
-		margin-right: 0;
-		width: 100%;
-
-	}
-}*/
-
 
 div.img2{
 	height:150px;
@@ -109,26 +110,6 @@ div.img2{
 	background-position: center;
 	
 }
-
-/*section.third{
-
-	animation-duration: 8s;
-	animation-name: slideinPhp;
-}
-
-@keyframes slideinPhp {
-
-	from {
-		margin-left:300%;
-		width: 300%;
-	}
-
-	to {
-		margin-right: 0;
-		width: 100%;
-
-	}
-}	*/
 
 
 div.img3{
