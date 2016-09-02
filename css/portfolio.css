@@ -1,13 +1,16 @@
 body{
 	
-	background-image:url("../img/binary.jpg")!important;
-	
+	/*background-image:url("../img/binary.jpg")!important;*/
+	background-color: azure!important;	
+	background-size: cover;
+
 
 }
 
 
 
 .container.body{
+	background-repeat: no-repeat;
 	opacity: 0.9;
 	background-color: grey!important;	
 	margin: 0;
@@ -19,16 +22,34 @@ body{
 
 }
 
+.fleche{
+	background-image:url("../img/fleche.png")!important;
+	background-size: cover;
+	height:80px;
+	width:80px;
+	display: flex;
+	justify-content: center;
+
+	margin-left:120px;
+	/*margin-top: 20px;*/
+
+}
+
+div.col-md-4 first-child{
+
+	border: 6px green;
+}
+
 #bgw{
 	float:right;
-	color:purple;
-	background-color: cyan;
+	color:black;
+	background-color: white;
 	font-size: 12px;
 }
 
 #bgp{
-	margin-top: 40px;
-	float: right;
+	
+	margin-left: 130px;
 	background-image:url(../img/abstract.jpg);
 	background-size: 80px 80px;
 	width: 80px;
@@ -39,7 +60,7 @@ header{
 		margin-top: 100px;
 		margin-bottom: 50px;
 		text-shadow: 2px 2px 2px yellow;
-		color: red;
+		color: black;
 		font-size: 12px!important;		
 
 }

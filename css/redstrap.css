@@ -1,4 +1,10 @@
+header{
+	display:flex;
+	justify-content: center;
 
+
+
+}
 
 
 
@@ -46,6 +52,11 @@ textarea {
 	float:left;
 	
 
+
+}
+.img{
+
+background-image:url("../img/bootstrap.png"); 
 
 
 }

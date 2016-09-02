@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	
 	<!--css-->
-	<link rel="stylesheet" type="text/css" href="css/redstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/redstrap.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
@@ -14,38 +14,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
 
 </head>
-<body>
-	
-	<div class="container">
 
-	<div class="container-fluid">	
-	<nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-	  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
-	    &#9776;
-	  </button>
-	  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-	    <a class="navbar-brand" href="#">Red-Folio</a>
-	    <ul class="nav navbar-nav">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Bootstrap</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Kali</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Php</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
-	</div>
-	
+<?php include "../inc/nav.php" ?>
+
 	<header>
 
-			<img height="600px" width="800px" src="img/bootstrap.png">
+			<div class="img"></div>
 
 	</header>
 	<div class="container">
@@ -53,8 +27,8 @@
 		<div class="">
 			<h1> Bootstraping Now !</h1>
 				<h2>I show you the begining of my bootstrap initiating lexicon </h2>
-					<p>You can show here an extract ! or you can show all <a href="bootstrap/test.html">here</a></p>
-					<iframe src="bootstrap/test.html"></iframe>
+					<p>You can show here an extract ! or you can show all <a href="../bootstrap/test.html">here</a></p>
+					<iframe src="../bootstrap/test.html"></iframe>
 		</div>
 
 	</section>
