@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--css-->
-		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+		<link rel="stylesheet" type="text/css" href="../css/redstrap.css">
 		<link rel="stylesheet" href="js/WOW/css/libs/animate.css">
 		<!-- bootstrap 4-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">

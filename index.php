@@ -8,6 +8,6 @@ include "inc/header.php";
 
 include "inc/body.php";
 
-include "inc/footer.php";
+include "inc/footer1.php";
 
 ?>		

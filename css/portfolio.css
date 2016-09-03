@@ -57,10 +57,10 @@ div.col-md-8 h2{
 
 }
 
-div.col-md-4:first-child{
+/*div.col-md-4:first-child{
 
 	border: 6px green;
-}
+}*/
 
 #bgw{
 	float:right;
@@ -124,6 +124,7 @@ section{
 	font-size: 12px!important;
 	padding-top: 25px;
 }
+
 wow = new WOW(
 {
 	boxClass: 'wow', 		  	// default
@@ -189,6 +190,28 @@ section.col-md-4:nth-child(3){
 
 }
 
+.In{
+	background-image:url("../img/in.png");
+	width: 128px;
+	height: 128px;
+}
+
+.git{
+	background-image:url("../img/git.png");
+	
+	width: 128px;
+	height: 128px;
+}
+
+.twitter{
+	background-image:url("../img/twit.png");
+	width: 128px;
+	height: 128px;
+}
+
+
+
+
 h6.nintendo{
 	display:flex;
 	justify-content: center;
@@ -199,15 +222,11 @@ h6.nintendo{
 	border-radius: 100px;
 	border-color: red;
 	background-color: white;
-	margin-left:150px;
+	margin-left:350px;
+	margin-right: 350px;
+	margin-top:50px;
 }
-.col-md-4 p{
-	display:flex;
-	justify-content: center;
 
-
-
-}
 
 pre{
 
@@ -218,22 +237,16 @@ pre{
 }
 
 footer{
-	
-	margin-left:360px;
-  	margin-top: 50px;
+	margin-top: 50px;
   	background-color: whitesmoke;
 
 }
 
-footer.col-md-6 h6{
+section.col-md-4{
 	display:flex;
 	justify-content: center;
-	margin-left: 150px;
-	
-  	
-
-
-}
+	margin-left: 650px!important;
+	}
 
 .place{
 	background-color: ;
@@ -242,25 +255,33 @@ footer.col-md-6 h6{
 	margin-left: 80px;	
 }
 
-p{
+/*figcaption{
 	display: flex;
 	justify-content: center!important;
-	margin-left: 150px;
+	margin-left: 350px;
 
 
-}
+}*/
 
-.stoned {
+button.stoned {
 	display: flex;
 	justify-content: center;
-	
+	margin-left: 45%;
 
 	}
 
-.col-md-8 button{
-	display: flex;
-	justify-content: center!important;
-	margin-left:225px;
-	margin-bottom: 50px;
-}
+	form{
+		float :right;
+		margin-right: 350px
 
+
+	}
+
+
+
+	div.row{
+		display: inline-block!important;
+
+
+
+	}
