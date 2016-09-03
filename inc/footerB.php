@@ -12,7 +12,7 @@
 							
 						<section>
 						<div class="col-md-4">	
-						<h6 title="here i have enjoy recreate the famous Nintendo pictures" class="nintendo">Copyright © ShambhalaCorp 2016</h6>
+						<h6 class="nintendo" title="here i have enjoy recreate the famous Nintendo pictures" >Copyright © ShambhalaCorp 2016</h6>
 						</div>
 						
 					

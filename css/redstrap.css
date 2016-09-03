@@ -15,13 +15,10 @@ header{
 
 
 
-}
-
-section.col-lg-12{
-
-
 
 }
+
+
 
 
 
@@ -83,9 +80,20 @@ textarea {
 
 
 }
+
+
+
+
+
+
 .img{
 
-background-image:url("..img/bootstrap.png"); 
+	background-image:url("../img/bootstrap.png"); 
+	background-repeat: no-repeat;	
+	height: 600px;
+	width: 980px;
+
+
 
 
 }
