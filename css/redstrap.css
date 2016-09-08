@@ -1,21 +1,17 @@
 
 
+
+
+
+
+
 iframe{
 		display: flex;
 		justify-content: center;
 		height:350px;
 		width: 450px;
 
-
-
-
-
-
 }
-
-
-
-
 
 
 .footer{
@@ -48,6 +44,7 @@ h6.nintendo{
 
 textarea {
 	float:left;
+	
 
 
 
