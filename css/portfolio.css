@@ -13,7 +13,7 @@ header{
 
 }
 
-.container.car{
+.container-fluid.car{
 	height: 800px;
 	width:1024px;
 
@@ -136,12 +136,6 @@ section.col-md-4:nth-child(3){
 	display: flex;
 	justify-content: flex-end;
 
-}
-.footer{
-	display:flex;
-	justify-content: center;
-	margin-top: 150px;
-	margin-left: 350px;
 }
 
 h6.nintendo{
