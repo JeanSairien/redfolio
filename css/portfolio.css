@@ -98,10 +98,10 @@ div.img2{
 section.third{
 
 	animation-duration: 8s;
-	animation-name: slideinkali;
+	animation-name: slideinPhp;
 }
 
-@keyframes slideinkali {
+@keyframes slideinPhp {
 
 	from {
 		margin-left:300%;
