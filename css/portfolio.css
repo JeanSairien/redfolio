@@ -1,5 +1,6 @@
-body{
-	background-color: whitesmoke;
+<body{
+	background-image:url("../img/jungle.jpg");
+	background-repeat: cover; 
 	margin: 0;
 	padding: 0;
 
@@ -12,6 +13,12 @@ header{
 
 }
 
+.container.car{
+	height: 800px;
+	width:1024px;
+
+}
+
 .carousel-caption:nth-child(3n+0) {
 
 	margin-bottom: 250px;
@@ -20,40 +27,18 @@ header{
 
 
 section{
-	background-color: blue;
+	background-color: whitesmoke;
 	margin-top: 50px;
+	opacity:0.9;
+	padding-top: 25px;
 }
-
 section.col-md-4{
 	display: flex;
 	justify-content: flex-end;
 }
 
-.col-md-4 figcaption{
-	animation-duration: 4s;
-	animation-name: slidein;
-}
+section.first{
 
-@keyframes slidein {
-
-	from {
-		margin-right:100%;
-		width: 300%;
-	}
-
-	to {
-		margin-right: 0;
-		width: 100%;
-
-	}
-}
-
-div.img1{
-	height:150px;
-	width:100%;
-	background-image:url("../img/bootstrap.png");
-	background-size: cover;
-	background-position: center;
 	animation-duration: 4s;
 	animation-name: slidein;
 }
@@ -71,7 +56,34 @@ div.img1{
 
 	}
 }
+
+div.img1{
+	height:150px;
+	width:100%;
+	background-image:url("../img/bootstrap.png");
+	background-size: cover;
+	background-position: center;
+	}
 	
+section.second{
+
+	animation-duration: 6s;
+	animation-name: slideinkali;
+}
+
+@keyframes slideinkali {
+
+	from {
+		margin-left:300%;
+		width: 300%;
+	}
+
+	to {
+		margin-right: 0;
+		width: 100%;
+
+	}
+}
 
 
 div.img2{
@@ -80,14 +92,19 @@ div.img2{
 	background-image:url("../img/kali.jpg");
 	background-size: cover;
 	background-position: center;
-	animation-duration: 4s;
-	animation-name: slidein;
+	
 }
 
-@keyframes slidein {
+section.third{
+
+	animation-duration: 8s;
+	animation-name: slideinkali;
+}
+
+@keyframes slideinkali {
 
 	from {
-		margin-left:100%;
+		margin-left:300%;
 		width: 300%;
 	}
 
@@ -96,8 +113,7 @@ div.img2{
 		width: 100%;
 
 	}
-}
-	
+}	
 
 
 div.img3{
@@ -106,24 +122,8 @@ div.img3{
 	background-image:url("../img/php.jpg");
 	background-size: cover;
 	background-position: center;
-	animation-duration: 4s;
-	animation-name: slidein;
+
 }
-
-@keyframes slidein {
-
-	from {
-		margin-left:100%;
-		width: 300%;
-	}
-
-	to {
-		margin-right: 0;
-		width: 100%;
-
-	}
-}
-	
 
 
 
