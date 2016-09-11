@@ -13,6 +13,13 @@ header{
 
 }
 
+.hr{
+
+	border-bottom: 2px gray;
+
+
+}
+
 .container-fluid.car{
 	height: 800px;
 	width:1024px;
@@ -37,7 +44,7 @@ section.col-md-4{
 	justify-content: flex-end;
 }
 
-section.first{
+/*section.first{
 
 	animation-duration: 4s;
 	animation-name: slidein;
@@ -55,7 +62,7 @@ section.first{
 		width: 100%;
 
 	}
-}
+}*/
 
 div.img1{
 	height:150px;
@@ -65,7 +72,7 @@ div.img1{
 	background-position: center;
 	}
 	
-section.second{
+/*section.second{
 
 	animation-duration: 6s;
 	animation-name: slideinkali;
@@ -83,7 +90,7 @@ section.second{
 		width: 100%;
 
 	}
-}
+}*/
 
 
 div.img2{
@@ -95,7 +102,7 @@ div.img2{
 	
 }
 
-section.third{
+/*section.third{
 
 	animation-duration: 8s;
 	animation-name: slideinPhp;
@@ -113,7 +120,7 @@ section.third{
 		width: 100%;
 
 	}
-}	
+}	*/
 
 
 div.img3{
@@ -147,8 +154,8 @@ h6.nintendo{
 	box-shadow: -2px 1px 1px 6px ;
 	border-radius: 100px;
 	border-color: red;
-	padding: 1px 1px 1px 11px;
 	background-color: white;
+
 }
 .col-md-4 p{
 	display:flex;
@@ -162,6 +169,20 @@ pre{
 
 	background-color: gray;
 	color: whitesmoke;	
+
+
+}
+
+footer{
+	margin-left: 360px;
+  	margin-top: 150px;
+
+}
+
+footer.col-md-4 h6{
+	display:flex;
+	justify-content: center;
+
 
 
 }
