@@ -83,6 +83,7 @@
 								</div>
 							</div>
 						</div>
+						<!--button for slide picture-->
 						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 							<span class="icon-prev" aria-hidden="true"></span>
 							<span class="sr-only">Previous</span>
@@ -96,110 +97,123 @@
 			</div>
 		</header>
 		<!--ending of header-->
-		<div class="hr"></div><!--separate-->
-		<!-- my first section white an describ how i use the framework-->
-		<section>			<!--here i hide this code for works without the css animating-->
-		<!--class="first"--> <!--the class must be put in the <section>-->
-		<!--<div class="chart"></div>-->
-		<div class="container-fluid">
-			<div class="col-md-4">
-				<div class="img1"></div>
-				<figcaption>Bootstrap 4 sublime you're code</figcaption>
-			</div>
-			<div class="col-md-8">
-				<h1>The News</h1>
-				<p> News fonctionnalities</p>
-				<h2>Enjoy now the new bootstrap 4 experiments  : find your remaster components to contemporary taste : jumbotron improved website , canvas , functionalities added to the container and many others , they will Enjoy your developments !!! </h2>
-			</div>
-		</div>
-	</section>
-	<div class="hr"></div>
-	<section>		<!--here i hide this code for works without the css animating-->
-	<!--class="second" --> <!--the class must be put in the <section>-->
-	<!--<div class="chart"></div>-->
-	<div class="container-fluid">
-		<div class="col-md-4">
-			<div class="img2"></div>
-			<!--<img href="" height="150px" width="180px" src="img/kali.jpg"/>-->
-			<figcaption>Sécurity Research and Development</figcaption>
-		</div>
-		<div class="col-md-8">
-			<h1>Kali Linux</h1>
-			<p>Ethics penetration test</p>
-			<h2>Ethercap , Metasploit , Nmap , Nikto and many others: Because nobody want an unsafe project, I deploy my knowledge of many tools of the most populary and legendary distribution :"Kali linux" in most of my skillz  </h2>
-		</div>
-	</div>
-</section>
-<div class="hr"></div>
-<section><!--class="third"-->
-<div class="container-fluid">
-	<!--<div class="chart"></div>-->
-	<div class="col-md-4">
-		<div class="img3"></div>
-		<!--<img href="" height="150px" width="180px" src="img/php.jpg"/>-->
-		<figcaption>Php 7 </figcaption>
-	</div>
-	<div class="col-md-8">
-		<h1>Php 7</h1>
-		<p>You're dynamise sites</p>
-		<h2>Upload your contained , synchronize your database files , Php will revolutionize your development </h2>
-	</div>
-</div>
-</section>
-<footer>
-<div class="container-fluid">
-	<div class="col-md-12">
-		<div class="col-md-4 col-sm-2 ">
-			<h6 class="nintendo">Powered By Dr.Redfish</h6>
-		</div>
-		<div class="col-md-8">
-			<p>Copyright © ShambhalaCorp 2016</p>
-		</div>
-	</div>
-	
-	<div class="col-md-12">
-		<div class="col-md-8">
-			<h2>voir le code du footer</h2>
-			<!-- Trigger the modal with a button -->
-			<button type="button" class="btn" data-toggle="modal" data-target="#myModal">cliquez moi</button>
-			<!-- Modal -->
-			<div class="modal fade" id="myModal" role="dialog">
-				<div class="modal-dialog">
-					
-					<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-							<h4 class="modal-title">Modal Header</h4>
+		<!--separate-->
+		<div class="hr"></div>
+				<!-- my first section with an describ how i use the framework-->
+				<section>
+							<!--here i hide this code for works without the css animating-->
+							<!--class="first"--> <!--the class must be put in the <section>-->
+							<!--<div class="chart"></div>-->
+					<div class="container-fluid">
+						<div class="col-md-4">
+							<div class="img1"></div>
+							<figcaption>Bootstrap 4 sublime you're code</figcaption>
 						</div>
-						<div class="modal-body">
-							<pre><code>
-								&lt;footer class="footer"&gt;
-								&lt;div class="col-md-12"&gt;
-								&lt;div class="col-md-4"&gt;
-								&lt;h6 class="nintendo"&gt;Powered By Dr.Redfish&lt;/h6&gt;
-								&lt;p&gt;Copyright "©" ShambhalaCorp 2016&lt;/p&gt;
-								&lt;/div&gt;
-								&lt;/div&gt;       
-								&lt;footer&gt;
-							</code></pre>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<div class="col-md-8">
+							<h1>The News</h1>
+							<p> News fonctionnalities</p>
+							<h2>Enjoy now the new bootstrap 4 experiments  : find your remaster components to contemporary taste : jumbotron improved website , canvas , functionalities added to the container and many others , they will Enjoy your developments !!! </h2>
 						</div>
 					</div>
+				</section>
+	<!--separate-->
+	<div class="hr"></div>
+				<!-- my second section with an describ how i apply the security-->
+				<section>
+							<!--here i hide this code for works without the css animating-->
+							<!--class="second" --> <!--the class must be put in the <section>-->
+							<!--<div class="chart"></div>-->
+					<div class="container-fluid">
+						<div class="col-md-4">
+							<div class="img2"></div>
+							<!--<img href="" height="150px" width="180px" src="img/kali.jpg"/>-->
+							<figcaption>Sécurity Research and Development</figcaption>
+						</div>
+						<div class="col-md-8">
+							<h1>Kali Linux</h1>
+							<p>Ethics penetration test</p>
+							<h2>Ethercap , Metasploit , Nmap , Nikto and many others: Because nobody want an unsafe project, I deploy my knowledge of many tools of the most populary and legendary distribution :"Kali linux" in most of my skillz  </h2>
+						</div>
+					</div>
+				</section>
+	<!--separate-->			
+	<div class="hr"></div>
+				<!--my third section with an describ how i use many tools of php/sql-->
+				<section>
+							<!--here i hide this code for works without the css animating-->
+							<!--class="third" --> <!--the class must be put in the <section>-->
+							<!--<div class="chart"></div>-->
+			
+						<div class="container-fluid">
+							<div class="col-md-4">
+								<div class="img3"></div>
+								<!--<img href="" height="150px" width="180px" src="img/php.jpg"/>-->
+								<figcaption>Php 7</figcaption>
+							</div>
+							<div class="col-md-8">
+								<h1>Php 7</h1>
+								<p>You're dynamise sites</p>
+								<h2>Upload your contained , synchronize your database files , Php will revolutionize your development </h2>
+							</div>
+						</div>
+				</section>
+		<!--begin of footer-->				
+		<footer>
+			<div class="container-fluid">
+				<div class="col-md-12">
+					<div class="col-md-6 col-sm-3">
+						<!--here i use my reproduct of nintendo logo-->
+						<h6 class="nintendo">Powered By Julien.V</h6>
+						<!--legacy copyright--><!-- integrate licencing GPL or wtfpl is comming-->
+						<p>Copyright © ShambhalaCorp 2016</p>
+					</div>
+					
 					
 				</div>
+				
+				<div class="col-md-12">
+					<div class="col-md-8">
+						<h2>show footer code</h2>
+						<!-- Trigger the modal with a button -->
+						<button type="button" class="btn place" data-toggle="modal" data-target="#myModal">clic me</button>
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+								
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">My code</h4>
+									</div>
+									<div class="modal-body">
+<pre><code><!-- here i show my code for user view-->
+&lt;footer class="footer"&gt;
+	&lt;div class="col-md-12"&gt;
+		&lt;div class="col-md-4"&gt;
+			&lt;h6 class="nintendo"&gt;Powered By Dr.Redfish&lt;/h6&gt;
+			&lt;p&gt;Copyright "©" ShambhalaCorp 2016&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;       
+&lt;footer&gt;
+</code></pre>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+						
+						
+						
+						
+					</div>
+				</div>
 			</div>
-			
-			
-			
-			
-			
-		</div>
-	</div>
-</div>
-</footer>
+		</footer><!--footer ending-->
 </div>
 
 </body>
