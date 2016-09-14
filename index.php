@@ -14,10 +14,12 @@ select * from
 <!DOCTYPE html>
 <html>
 	<head>
+		<marquee><title>Redfolio</title></marquee>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--css-->
 		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+		<link rel="stylesheet" href="js/WOW/css/libs/animate.css">
 		<!-- bootstrap 4-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
 		<!--jquery-->
@@ -26,16 +28,16 @@ select * from
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
 		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+		<!--WOW.js-->
+		<script type="text/javascript" src="js/WOW/dist/wow.min.js"></script>
+		<script> new WOW().init()</script>
 	</head>
 	<body>
 		
-		<div class="container"><!--main container-->
+		<div class="container-fluid body"><!--main container-->
 		<!--navigation bar fixed-->
-		<div class="container-fluid">
-			<nav class="navbar navbar-fixed-top navbar-dark bg-inverse navbar-right">
-				<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">blop
-				&#9787;
-				</button>
+		<nav class="navbar navbar-fixed-top bg-inverse navbar-right">
+			<div class="container-fluid">
 				<div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
 					<a class="navbar-brand" href="#">Red-Folio</a>
 					<ul class="nav navbar-nav navbar-right">
@@ -53,19 +55,25 @@ select * from
 						</li>
 					</ul>
 				</div>
-			</nav>
-		</div>
+			</div>
+		</nav>
 		
 		<!--header begin here-->
 		<header>
-			<div class="container-fluid car">
-				<!--a little desrib of me-->
-				<!--My Boostrap 4 slider-->
+		<div class="container-fluid car">
+			<!--a little desrib of me-->
+			<!--My Boostrap 4 slider-->
 				<div class="col-md-12 col-sm-12">
-				<h2>Welcome on my RedFolio!<title>Here i use a text-shadow css in yellow</title></h2>
-
-				<h3>I'm Julien and i am passionate by the numerique world since 10 years</h3>
-				<h4>In self-educated, i learn web and network technologies </h4>
+				<div class="container-fluid bg">
+				<div id="bgw" class="wow pulse" data-wow-duration="1s" data-wow-delay="0s" data-wow-iteration="3"> when you see a small pictures animated place you're mouse on it  for see the comment</div>
+					<div title="Here i use a text-shadow css in 2 yellow pixel " id="bgp" class="col-xs-2 wow swing " data-wow-duration="1s" data-wow-delay="0s" data-wow-iteration="3">
+					</div>
+						<h2>Welcome on my RedFolio!</h2>
+				<div> 		
+				<h3>Hello I'm Julien, I live the numerique world since 10 years</h3>
+				<h4 class="marge">In self-educated, i learn web and network technologies </h4>
+				</div>
+				</div>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -83,15 +91,15 @@ select * from
 							<div class="carousel-item">
 								<img height="768px" width="1366px" src="img/kali.jpg" alt="Second slide">
 								<div class="carousel-caption">
-									<h3>Secure You're skillz White the most Popular :Kali</h3>
-									<p>Ethical Thing we trust !</p>
+									<h3>Secure You're skillz with the most Popular Kali</h3>
+									<p>Ethical Thing I trust !</p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img height="768px" width="1366px" src="img/php.png" alt="Third slide">
 								<div class="carousel-caption">
-									<h3>More One Hobby !</h3>
-									<p>We're the passion of a life !</p>
+									<h3>One More Hobby !</h3>
+									<p> One Life !</p>
 								</div>
 							</div>
 						</div>
@@ -112,9 +120,7 @@ select * from
 		<!--separate-->
 		<div class="hr"></div>
 				<!-- my first section with an describ how i use the framework-->
-				<section class="first">
-							<!--here i hide this code for works without the css animating-->
-							<!--class="first"--> <!--the class must be put in the <section>-->
+				<section class="wow slideInLeft" data-wow-duration="1s" data-wow-delay="0s"><!-- For reveal animate css i use js framework "wow.js"-->
 							<div class="chart"></div>
 					<div class="container-fluid">
 						<div class="col-md-4">
@@ -122,19 +128,19 @@ select * from
 							<figcaption>Bootstrap 4 sublime you're code</figcaption>
 						</div>
 						<div class="col-md-8">
-							<h1>The News</h1>
-							<p> News fonctionnalities</p>
-							<h2>Enjoy now the new bootstrap 4 experiments  : find your remaster components to contemporary taste : jumbotron improved website , canvas , functionalities added to the container and many others , they will Enjoy your developments !!! </h2>
+							<h1>With him it's good</h1>
+							<p> Faster,easier and friendly</p>
+							<h2> Why exaclty him ? Bootstrap it's very easy for handling, is faster and awesome  configuration with her responsive modern grid, almost everything is enable with my old friend.
+							That is the reason for use it in every skills!!! </h2>
 						</div>
 					</div>
 				</section>
 	<!--separate-->
 	<div class="hr"></div>
 				<!-- my second section with an describ how i apply the security-->
-				<section class="first">
-							<!--here i hide this code for works without the css animating-->
-							<!--class="second" --> <!--the class must be put in the <section>-->
-							<div class="chart"></div>
+				<section class="wow slideInRight" data-wow-duration="1s" data-wow-delay="0s"><!-- For reveal animate css i use js framework "wow.js"-->
+							
+							
 					<div class="container-fluid">
 						<div class="col-md-4">
 							<div class="img2"></div>
@@ -150,7 +156,7 @@ select * from
 	<!--separate-->			
 	<div class="hr"></div>
 				<!--my third section with an describ how i use many tools of php/sql-->
-				<section class="first">
+				<section class="wow pulse data-wow-duration="1s" data-wow-delay="0s">
 							<!--here i hide this code for works without the css animating-->
 							<!--class="third" --> <!--the class must be put in the <section>-->
 							<div class="chart"></div>
@@ -173,7 +179,7 @@ select * from
 				<div class="col-md-12 col-sm-10">
 					<div class="col-md-6 col-sm-3">
 						<!--here i use my reproduct of nintendo logo-->
-						<h6 class="nintendo">Powered By Julien.V</h6>
+						<h6 title="here i have enjoy recreate the famous Nintendo pictures" class="nintendo">Powered By Julien.V</h6>
 						<!--legacy copyright--><!-- integrate licencing GPL or wtfpl is comming-->
 						<p>Copyright © ShambhalaCorp 2016</p>
 					</div>
