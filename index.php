@@ -1,3 +1,16 @@
+<?php
+	function dbconnect(){
+		$user = "red";
+		$pass= "admin";
+	$dbh = new PDO('mysql:host=localhost;dbname=mixterest', $user, $pass) or die("erreur de connexion au serveur $host");}
+
+select * from 
+
+
+
+ ?>
+
+
 <!DOCTYPE html>
 <html>
 	<head>
