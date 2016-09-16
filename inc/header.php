@@ -14,7 +14,7 @@
 				</div>
 				<div class="col-md-4">
 				<div id="bgw" class="wow pulse" data-wow-duration="1s" data-wow-delay="0s" data-wow-iteration="3"> when you 
-				see this small pictures animated, place you're mouse on it  for see the   comment,you can try it now</div>
+				see this small pictures animated, hold our mouse on it  for see the   comment,you can try it now</div>
 				<div class="fleche"></div>
 
 					<div title="Here i use a text-shadow css in 2 yellow pixel " id="bgp" class="col-xs-2 wow swing " data-wow-duration="1s" data-wow-delay="0s" data-wow-iteration="3">
