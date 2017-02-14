@@ -10,7 +10,7 @@
 						<li class="nav-item active">
 							<a class="nav-link" href="../index.php">Home<span class="sr-only">(current)</span></a>
 						</li>
-						<li class="nav-item ">
+						<!--<li class="nav-item ">
 							<a class="nav-link" href="pages/bootstrap.php">Bootstrap</a>
 						</li>
 						<li class="nav-item">
@@ -18,6 +18,9 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Php</a>
+						</li>-->
+						<li class="nav-item">
+							<a class="nav-link" href="pages/projects.php">Projects</a>
 						</li>
 					</ul>
 				</div>

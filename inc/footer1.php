@@ -15,7 +15,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li><a href="https://fr.linkedin.com/in/julien-vaupré-186196122"><div title="https://fr.linkedin.com/in/julien-vaupré-186196122" class="wow tada In" data-wow-duration="1s" data-wow-delay="1s"></div></a></li>
-      <li><a href="https://github.com/JeanSairien"><div title="https://github.com/JeanSairien" class="wow tada git "  data-wow-duration="1s" data-wow-delay="2s"></div></a></li> 
+      <li><a href="https://github.com/Vjulien"><div title="https://github.com/Vjulien" class="wow tada git "  data-wow-duration="1s" data-wow-delay="2s"></div></a></li> 
       <li><a href="https://twitter.com/JVaupre"><div title="https://twitter.com/JVaupre" class="wow tada twitter" data-wow-duration="1s" data-wow-delay="3s"></div></a></li> 
     </ul>
   </div>

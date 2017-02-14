@@ -1,13 +1,25 @@
 body{
 	
-	background:url("../img/binary.gif")!important;
-	background-size: 100% 100%!important;
+	
+	
 	background-repeat: no-repeat!important;
+	background-attachment: fixed!important;
+	background-size:  cover !important;
+	
+	
+background: rgba(76,76,76,1);
+background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.95) 12%, rgba(102,102,102,0.92) 20%, rgba(71,71,71,0.88) 30%, rgba(44,44,44,0.84) 39%, rgba(0,0,0,0.79) 51%, rgba(17,17,17,0.72) 69%, rgba(43,43,43,0.66) 82%, rgba(28,28,28,0.63) 91%, rgba(19,19,19,0.59) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,0.95)), color-stop(20%, rgba(102,102,102,0.92)), color-stop(30%, rgba(71,71,71,0.88)), color-stop(39%, rgba(44,44,44,0.84)), color-stop(51%, rgba(0,0,0,0.79)), color-stop(69%, rgba(17,17,17,0.72)), color-stop(82%, rgba(43,43,43,0.66)), color-stop(91%, rgba(28,28,28,0.63)), color-stop(100%, rgba(19,19,19,0.59)));
+background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.95) 12%, rgba(102,102,102,0.92) 20%, rgba(71,71,71,0.88) 30%, rgba(44,44,44,0.84) 39%, rgba(0,0,0,0.79) 51%, rgba(17,17,17,0.72) 69%, rgba(43,43,43,0.66) 82%, rgba(28,28,28,0.63) 91%, rgba(19,19,19,0.59) 100%);
+background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.95) 12%, rgba(102,102,102,0.92) 20%, rgba(71,71,71,0.88) 30%, rgba(44,44,44,0.84) 39%, rgba(0,0,0,0.79) 51%, rgba(17,17,17,0.72) 69%, rgba(43,43,43,0.66) 82%, rgba(28,28,28,0.63) 91%, rgba(19,19,19,0.59) 100%);
+background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.95) 12%, rgba(102,102,102,0.92) 20%, rgba(71,71,71,0.88) 30%, rgba(44,44,44,0.84) 39%, rgba(0,0,0,0.79) 51%, rgba(17,17,17,0.72) 69%, rgba(43,43,43,0.66) 82%, rgba(28,28,28,0.63) 91%, rgba(19,19,19,0.59) 100%);
+background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,0.95) 12%, rgba(102,102,102,0.92) 20%, rgba(71,71,71,0.88) 30%, rgba(44,44,44,0.84) 39%, rgba(0,0,0,0.79) 51%, rgba(17,17,17,0.72) 69%, rgba(43,43,43,0.66) 82%, rgba(28,28,28,0.63) 91%, rgba(19,19,19,0.59) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
 	
 }
 
 div.opac{
-	background-color: rgba(255,255,255);
+	background-color: rgba(255,255,255 0,3);
 	
 
 
@@ -211,7 +223,96 @@ section.col-md-4:nth-child(3){
 }
 
 
+.col-lg-4.project{
 
+	width: 150px;
+	height: 150px;
+	border: 1px solid red;
+	background-color: grey;
+	margin-left :10%;
+	margin-top: 5%;
+	font-size: 20px!important;
+
+
+}
+
+.jumbotron{
+	height: 1080px!important;
+
+
+}
+
+.twenty{
+	background-image: url("../img/twenty.png");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	font-size: 15px;
+
+}
+
+.V2{
+	background-image: url("../img/2tech.png");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	font-size: 15px;
+
+}
+
+.tech{
+	background-image: url("../img/gestion.png");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	font-size: 15px;
+
+}
+
+.FM{
+	background-image: url("../img/FM.png");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	font-size: 15px;
+
+}
+
+.FM{
+	background-image: url("../img/FM.png");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	font-size: 15px;
+
+}
+
+.wana{
+	background-image: url("../img/wana.png");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	font-size: 15px;
+
+}
+
+.eye{
+	background-image: url("../img/eye.png");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	font-size: 15px;
+
+}
+
+a:hover{
+	color: red!important;
+	background-color: whitesmoke;
+	text-decoration: none;
+	font-size: 25px;
+
+
+}
 
 h6.nintendo{
 	display:flex;
@@ -226,6 +327,22 @@ h6.nintendo{
 	margin-left:350px;
 	margin-right: 350px;
 	margin-top:50px;
+}
+
+h6.regular{
+	display:flex;
+	justify-content: center;
+	color: red;
+	font-family:"VT323";
+	color:red;
+	box-shadow: -2px 1px 1px 6px ;
+	border-radius: 100px;
+	border-color: red;
+	background-color: white;
+	margin-left: 90%;	
+	padding-left:250px;
+	padding-right: 250px;
+	text-align: initial;
 }
 
 

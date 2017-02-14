@@ -9,11 +9,11 @@
 							<figcaption>Bootstrap 4 sublime you're code</figcaption>
 						</div>
 						<div class="col-md-8">
-							<h1>With him it's good</h1><div title="here i have use the Wow.js frameworks for doing the animation css because when i wanted do a manual animation i'have realize how it's hardest" id="bgp1" class="col-xs-2 wow swing " data-wow-duration="1s" data-wow-delay="2s" data-wow-iteration="3">
+							<h1>Avec lui tout est bon !</h1><div title="here i have use the Wow.js frameworks for doing the animation css because when i wanted do a manual animation i'have realize how it's hardest" id="bgp1" class="col-xs-2 wow swing " data-wow-duration="1s" data-wow-delay="2s" data-wow-iteration="3">
 									</div>
-							<p> Faster,easier and friendly</p>
-							<h2> Why exaclty him ? Bootstrap it's very easy for handling, is faster and awesome  configuration with her responsive modern grid, almost everything is enable with my old friend.
-							That is the reason for use it in every skills!!! </h2>
+							<p> rapid,facile et amicale</p>
+							<h2> Pourquoi lui  ? Bootstrap est facile a prendre en main, ca configuration est simple et efficace,avec ca grille moderne responsive  Avec lui tout est possible .
+							Voiçi les raisons de l'utiliser dans tout mes skills!!! </h2>
 						</div>
 					</div>
 				</section>
@@ -26,12 +26,13 @@
 					<div class="container-fluid">
 						<div class="col-md-4">
 							<div class="img2"></div>
-								<figcaption>Sécurity Research and Development</figcaption>
+								<figcaption>Sécurité Recherche and Developpement</figcaption>
 						</div>
 						<div class="col-md-8">
 							<h1>Kali Linux</h1>
 							<p>Ethics penetration test</p>
-							<h2>Ethercap , Metasploit , Nmap , Nikto and many others: Because nobody want an unsafe project, I deploy my knowledge of many tools of the most populary and legendary distribution :"Kali linux" in most of my skillz  </h2>
+							<h2>Ethercap , Metasploit , Nmap , Nikto et beaucoup d'autres: Parce que personne ne veux d'un projet insecurisé, Je deploie mes connaissances des outils de la distribution la plus populair du domaine:
+							"Kali linux"   </h2>
 						</div>
 					</div>
 				</section>
@@ -49,8 +50,8 @@
 							</div>
 							<div class="col-md-8">
 								<h1>Php 7</h1>
-								<p>You're dynamise sites</p>
-								<h2>Upload your contained , synchronize your database files , Php will revolutionize your development </h2>
+								<p>Pour dynamiser mes création</p>
+								<h2>Du contenue dynamique, manipulation des données  , avec php  </h2>
 							</div>
 						</div>
 				</section>
